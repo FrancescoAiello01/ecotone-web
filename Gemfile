@@ -8,15 +8,15 @@ end
 
 gem 'rails', '~> 5.1.7'
 gem 'bootstrap-sass', '~> 3.4.1'
-gem 'haml', '~> 5.0.4'
+gem 'haml', '~> 5.1.2'
 gem 'pg'
 gem 'puma', '~> 4.3.5'
 gem 'sass-rails', '~> 5.0'
-gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.2'
+gem 'uglifier', '>= 4.2.0'
+gem 'coffee-rails', '~> 4.2.2'
 gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
-gem 'jbuilder', '~> 2.5'
+gem 'jbuilder', '~> 2.10.0'
 gem 'bcrypt'
 gem 'recaptcha', require: 'recaptcha/rails'
 gem 'paperclip', '~> 5.2.1'
@@ -29,8 +29,7 @@ gem 'omniauth'
 gem 'omniauth-google-oauth2'
 
 group :test do
-  gem 'simplecov', require: false
-  gem 'codeclimate-test-reporter', '~> 1.0.8'
+  gem 'simplecov', '~> 0.18.5', require: false
 end
 
 group :development, :test do
@@ -43,7 +42,7 @@ group :development, :test do
   gem 'dotenv-rails'
   gem 'poltergeist'
   gem 'foreman', '~> 0.85.0'
-  gem 'haml-rails', '~> 2.0.0'
+  gem 'haml-rails', '~> 2.0.1'
 end
 
 group :development do
